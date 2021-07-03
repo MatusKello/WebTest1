@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h4 {
+    display: none;
+}
+
+li {
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.image {
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 2px solid blue;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.middle {
+    text-align: center;
+}
+
+.info {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.back {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: rgb(75, 75, 85);
+    color: white;
+    padding: 15px;
+    box-shadow: 3px 1px rgb(97, 121, 97);
+}
+
+.menu {
+    border: 2px solid red;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    padding: 30px 10px;
+    width: 90px;
+    height: 50px;
+    text-decoration: none;
+    box-shadow: 5px 3px red;
+}
+
+
+/*main {
+    width: 1000px;
+    margin: auto;
+    border: 3px solid green;
+}*/
+
+#imgMenu {
+    margin: 15px auto;
+    text-align: center;
+    float: right;
+}
+
+header {
+    width: 1000px;
+    margin: 5px auto;
+    background-color: darkgrey;
+}
+
+.skuska {
+    float: left;
+    display: block
+}
+
+ul {
+    margin: auto;
+    width: 1000px;
+}
+
+.price {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+}
+
+.priceA {
+    border: 1px solid green;
+    float: left;
+    padding: -20px;
+}
+
+#kompletaz {
+    width: 300px;
+    float: left;
+    border: 1px solid red;
+    padding: 15px;
+}
